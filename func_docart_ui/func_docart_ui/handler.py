@@ -1,3 +1,5 @@
+import os
+
 def handle(req):
     """handle a request to the function
     Args:
