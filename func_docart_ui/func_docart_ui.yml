@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://159.65.154.98:8080
+
+functions:
+  func_docart_ui:
+    lang: python3
+    handler: ./func_docart_ui
+    image: vsridhar/func_docart_ui

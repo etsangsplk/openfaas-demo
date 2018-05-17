@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  func_docart_login:
+    lang: python3
+    handler: ./func_docart_login
+    image: vsridhar/func_docart_login
